@@ -29,24 +29,32 @@
     </div>
 </div> */}
 
-const parent = React.createElement("div", 
-    {id: "parent"},
-    [React.createElement(
-        "div", 
-        {id: "child", key: 1},
-        [React.createElement("h1", {key:1}, "I'm an h1 tag"),
-         React.createElement("h2", {key:2}, "I'm an h2 tag"),
-    ]),
-    React.createElement(
-        "div", 
-        {id: "child2", key: 2},
-        [React.createElement("h1", {key:1}, "I'm an h1 tag"),
-         React.createElement("h2", {key:2}, "I'm an h2 tag"),
-    ])]
-);
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
 
-const root1 = ReactDOM.createRoot(document.getElementById("root"));
+// const parent = React.createElement("div", 
+//     {id: "parent"},
+//     [React.createElement(
+//         "div", 
+//         {id: "child", key: 1},
+//         [React.createElement("h1", {key:1}, "I'm an h1 tag"),
+//          React.createElement("h2", {key:2}, "I'm an h2 tag"),
+//     ]),
+//     React.createElement(
+//         "div", 
+//         {id: "child2", key: 2},
+//         [React.createElement("h1", {key:1}, "I'm an h1 tag"),
+//          React.createElement("h2", {key:2}, "I'm an h2 tag"),
+//     ])]
+// );
 
-root1.render(parent);
+// const root1 = ReactDOM.createRoot(document.getElementById("root"));
+
+// root1.render(parent);
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
 
 // JSX as it makes easier to write html as code will become complex with create Element.
